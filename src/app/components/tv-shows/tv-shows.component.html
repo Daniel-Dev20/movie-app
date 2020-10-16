@@ -1,0 +1,7 @@
+<ion-slides class="color-contenido">
+  <ion-slide *ngFor="let tvShow of tv">
+    <ion-card (click)="verDetalle(tvShow.id)">
+      <img [src]="tvShow.backdrop_path | image">
+    </ion-card>
+  </ion-slide>
+</ion-slides>

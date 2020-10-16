@@ -1,0 +1,73 @@
+.colorFondo{
+    --background: white !important;
+    --color: black !important;
+   
+}
+/*Estilo de imagen de fondo del contenido*/
+.fondo-image{
+    height: 145vh;
+    background-image:  linear-gradient(to right, rgba(67, 67, 67, 0.521) 0%, rgba(0, 0, 0, 0.521) 100%),  url('../assets/cine.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+  
+}
+/*Estilo de las imagenes en el ion-card*/
+.cards{
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+/*Eastilo para los h3 del contenido*/
+.color-subtitulos{
+    
+    width: 100%;
+    height: 60px;
+}
+.color-subtitulos h3{
+    color:#fff !important;
+    transition: all 300ms !important;
+  
+    
+}
+/*Estilos del menu de los tabs*/
+.color-tabs{
+    --background: black !important;  
+   
+    
+    
+  
+}
+.boton-mas{
+    --background: black !important;
+}
+
+.color-tabs ion-label{
+    color: #fff;
+    font-size: 10px !important;
+}
+.color-tabs ion-icon{
+    color: #fff;
+}
+.imagen-slide{
+  
+    width: 100%;
+    height: 40vh;
+   
+ 
+   
+}
+.imagen-slide img{
+    width: 100%;
+    height: 35vh;
+    border: 2px solid #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+   
+
+}
+
+

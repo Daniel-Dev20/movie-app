@@ -1,0 +1,30 @@
+
+<ion-content>
+  <div class="fondo-image">
+  <ion-grid class="color-subtitulos">
+    <ion-row>
+      <ion-col>
+        <h1>Tv Shows</h1>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <app-tv-shows></app-tv-shows>
+  <ion-grid class="color-subtitulos">
+    <ion-row>
+      <ion-col>
+        <h2>Cartelera</h2>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <app-slidesshow-tv-show-poster [tv]="tv"></app-slidesshow-tv-show-poster>
+
+  <ion-grid class="color-subtitulos">
+    <ion-row>
+      <ion-col>
+        <h2>Populares</h2>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <app-slidesshow-pares-tv-show [tv]="tvShowRecientes"></app-slidesshow-pares-tv-show>
+</div>
+</ion-content>

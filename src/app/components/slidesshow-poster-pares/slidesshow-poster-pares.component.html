@@ -1,0 +1,10 @@
+<ion-slides [options]="slideOptions" class="color-contenido">
+  <ion-slide *ngFor="let shows of tv">
+   
+        <ion-card (click)="verDetalle(shows.id)">
+          <img [src]="shows.poster_path | image" class="poster">
+        </ion-card>
+ 
+   
+  </ion-slide>
+</ion-slides>
